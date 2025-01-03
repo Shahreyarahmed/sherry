@@ -1,0 +1,133 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #121212;
+    color: #f8f9fa;
+}
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 10px 20px;
+}
+
+.navbar-title {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navbar-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navbar-links li {
+  margin-left: 20px;
+}
+
+.navbar-links a {
+  color: white;
+  text-decoration: none;
+  padding: 8px 16px;
+  transition: background-color 0.3s;
+}
+
+.navbar-links a:hover {
+  background-color: #575757;
+  border-radius: 4px;
+}
+
+.content {
+  padding: 20px;
+}
+.navbar li a:hover{
+    background-color: #d3ad22;
+}
+.bg-primary{
+    background-image: url(https://th.bing.com/th/id/OIP.4smoaXwJvAZHYie_P4gmIAHaFe?rs=1&pid=ImgDetMain);
+}
+
+
+header.jumbotron {
+    background-size: cover;
+    color: white;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+    padding: 4rem 2rem;
+    margin-bottom: 0;
+    background-image: url(https://th.bing.com/th/id/OIP.rnkhGTWTKwaoUA1l5ETOBgHaHa?w=970&h=970&rs=1&pid=ImgDetMain);
+}
+
+.card {
+    background-color: #000000;
+    border: none;
+    color: #f8f9fa;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+.feature-card:hover {
+    background-color: #e0b919;
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+footer {
+    background-color: #d3ad22;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #007bff;
+}
+/* Title with a shiny effect */
+.shiny-title {
+    font-size: 2.5rem;
+    color: #ffdf00;
+    text-shadow: 0 0 10px #ffdf00, 0 0 20px #ff8c00, 0 0 30px #ffa500;
+  }
+  
+  /* List styling */
+  .shiny-list .list-group-item {
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    color: white;
+    font-weight: bold;
+    padding: 15px;
+    margin: 5px 0;
+    border-radius: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .shiny-list .list-group-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px #ffdf00, 0 0 25px #ff8c00;
+    background: rgba(255, 255, 255, 0.3);
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .shiny-title {
+      font-size: 2rem;
+    }
+  }
+
+  /* Active song highlight */
+.active-song {
+    background: #ffdf00 !important;
+    color: black !important;
+    box-shadow: 0 0 20px #ffdf00, 0 0 30px #ffa500;
+  }
+  
